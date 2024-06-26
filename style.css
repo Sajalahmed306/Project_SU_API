@@ -52,3 +52,33 @@ header {
     width: 70%;
     margin: 50px auto;
 }
+ 
+#search-container {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+  
+  #search-bar {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(237, 232, 192);
+  }
+  
+  #search-box {
+    width: 70%;
+  }
+  
+  #search-box input[type="text"] {
+    padding: 15px;
+    width: 60%;
+    border: none;
+  }
+  
+  #search-button {
+    background-color: rgb(172, 2, 232);
+    width: 30%;
+    display: flex;
+    justify-content: end;
+  }
+  
