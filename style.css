@@ -35,14 +35,20 @@ header {
 }
 
 #highlight h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     text-shadow: blueviolet;
     margin-bottom: 25px;
     text-shadow: 2px 2px #7bae97;
+    
 }
 
 #highlight > p {
     color: rgb(88, 76, 76);
     margin-bottom: 25px;
+}
+#cover-image{
+    border: none 2px solid rebeccapurple;
+    width: 70%;
+    margin: 50px auto;
 }
