@@ -1,8 +1,7 @@
-*{
-    margin: 0;  
-    font-family: "Poppins", sans-serif;
-    
-
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
 }
 
 header {
@@ -11,9 +10,8 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
-
-
 }
+
 .btn {
     background-color: rgb(83, 163, 237);
     color: white;
@@ -21,8 +19,30 @@ header {
     border-radius: 10px;
     border: none;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: aquamarine;
     color: black;
     cursor: pointer;
+}
+
+#highlight {
+    border: none 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#highlight h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: blueviolet;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px #7bae97;
+}
+
+#highlight > p {
+    color: rgb(88, 76, 76);
+    margin-bottom: 25px;
 }
