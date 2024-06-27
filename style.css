@@ -95,3 +95,40 @@ border: none ;
 outline: none;
 width: 70%;
 }
+#card-section{
+  width:80% ;
+  /* border: 2px solid red; */
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.card{
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+}
+.card-image{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+.card-image:hover{
+  background-color: chartreuse;
+}
+.card-title{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.crad-details{
+  margin-bottom: 20px;
+}
+
+.card-price{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
