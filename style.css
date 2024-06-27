@@ -1,84 +1,97 @@
-* {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: antiquewhite;
+*{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: antiquewhite;
 }
 
 header {
-    width: 90%;
-    border: none 2px solid red;
-    display: flex;
-    justify-content: space-between;
-    margin: 50px auto;
+  width: 90%;
+  border: none 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
 }
 
 .btn {
-    background-color: rgb(83, 163, 237);
-    color: white;
-    padding: 15px 30px;
-    border-radius: 10px;
-    border: none;
+  background-color: rgb(83, 163, 237);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
 }
 
 .btn:hover {
-    background-color: aquamarine;
-    color: black;
-    cursor: pointer;
+  background-color: aquamarine;
+  color: black;
+  cursor: pointer;
 }
 
 #highlight {
-    border: none 2px solid red;
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 20px;
+  border: none 2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #highlight h1 {
-    font-size: 50px;
-    font-weight: 800;
-    text-shadow: blueviolet;
-    margin-bottom: 25px;
-    text-shadow: 2px 2px #7bae97;
-    
+  font-size: 50px;
+  font-weight: 800;
+  text-shadow: blueviolet;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px #7bae97;
+  
 }
 
 #highlight > p {
-    color: rgb(88, 76, 76);
-    margin-bottom: 25px;
+  color: rgb(88, 76, 76);
+  margin-bottom: 25px;
 }
 #cover-image{
-    border: none 2px solid rebeccapurple;
-    width: 70%;
-    margin: 50px auto;
-}
+  border: none 2px solid rebeccapurple;
+  width: 70%;
+  margin: 50px auto;
  
-#search-container {
-    width: 50%;
-    margin: 0 auto;
-    border: 2px solid red;
-  }
-  
-  #search-bar {
-    border-radius: 8px;
-    padding: 10px;
-    background-color: rgb(237, 232, 192);
-  }
-  
-  #search-box {
-    width: 70%;
-  }
-  
-  #search-box input[type="text"] {
-    padding: 15px;
-    width: 60%;
-    border: none;
-  }
-  
-  #search-button {
-    background-color: rgb(172, 2, 232);
-    width: 30%;
-    display: flex;
-    justify-content: end;
-  }
-  
+}
+#cover-image img {
+width: 100%;
+}
+#search-section{
+border: none 2px solid blue;
+width: 75%;
+margin: 0% auto;
+
+}
+#search-section > h2{
+text-align: center;
+margin-bottom: 25px;
+}
+#search-container{
+border: 2px solid black;
+width: 50%;
+margin: 0 auto;
+border-radius: 7px;
+margin-bottom: 25px;
+padding: 10px;
+background-color: rgb(231, 231, 138);
+display: flex;
+
+}
+#search-bar{
+width: 80%;
+border: none 2px solid black;
+/* background-color:  rgb(231, 231, 138);  */
+}
+#search-button{
+width: 30%;
+border: none 2px solid black;
+display: flex;
+justify-content: end;
+
+}
+#search-bar > input[type="text"]{
+padding: 15px;
+border: none ;
+outline: none;
+width: 70%;
+}
