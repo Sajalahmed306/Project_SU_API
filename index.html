@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/679bf1238b.js" crossorigin="anonymous"></script>
-</head> 
+</head>
 <body>
     <header>
         <h1>My Apple store</h1>
@@ -36,11 +36,11 @@
             <div id="search-container">
               <div id="search-bar">
                 <i class="fa fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search Your Phone" />
+                <input id="search-input-field" placeholder="Search Your Phone" />
               </div>
               
                 <div id="search-button">
-                <button class="btn">Search</button>
+                <button onclick="handleSearch()" class="btn">Search</button>
                 </div>
              </div>
            </section>
@@ -167,6 +167,94 @@
 
 
               </div>
+              <div class="card">
+                <div class="card-image">
+                    <img src="./image/Samsung_Galaxy_S21.png" alt="samsung-image" width="300">
+                </div>
+                <h3 class="card-title">Samsung Galaxy S21</h3>
+                <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Samsung_Galaxy_Note_20.png" alt="samsung-image" width="300">
+                </div>
+                <h3 class="card-title">Samsung Galaxy Note 20</h3>
+                <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">1199</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Google_Pixel_5.png" alt="google-pixel-image" width="300">
+                </div>
+                <h3 class="card-title">Google Pixel 5</h3>
+                <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">699</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/OnePlus_9_Pro.png" alt="oneplus-image" width="300">
+                </div>
+                <h3 class="card-title">OnePlus 9 Pro</h3>
+                <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">969</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Sony_Xperia_1_II.png" alt="sony-xperia-image" width="300">
+                </div>
+                <h3 class="card-title">Sony Xperia 1 II</h3>
+                <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">1199</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Xiaomi_Mi_11.png" alt="xiaomi-mi-image" width="300">
+                </div>
+                <h3 class="card-title">Xiaomi Mi 11</h3>
+                <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">749</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
             </div>
             <div class="card">
               <div class="card-image">
@@ -200,13 +288,13 @@
           
           <div class="card">
               <div class="card-image">
-                  <img src="./image/Google_Pixel_5.png" alt="google-pixel-image" width="300">
+                  <img src="./image/Samsung_Galaxy_S20.png" alt="samsung-image" width="300">
               </div>
-              <h3 class="card-title">Google Pixel 5</h3>
+              <h3 class="card-title">Samsung Galaxy S20</h3>
               <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
               <div class="card-price">
                   <span>$</span>
-                  <span id="card-item-price">699</span>
+                  <span id="card-item-price">899</span>
               </div>
               <div class="card-btn">
                   <button class="btn">Show Details</button>
@@ -215,13 +303,13 @@
           
           <div class="card">
               <div class="card-image">
-                  <img src="./image/OnePlus_9_Pro.png" alt="oneplus-image" width="300">
+                  <img src="./image/Samsung_Galaxy_A51.png" alt="samsung-image" width="300">
               </div>
-              <h3 class="card-title">OnePlus 9 Pro</h3>
+              <h3 class="card-title">Samsung Galaxy A51</h3>
               <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
               <div class="card-price">
                   <span>$</span>
-                  <span id="card-item-price">969</span>
+                  <span id="card-item-price">399</span>
               </div>
               <div class="card-btn">
                   <button class="btn">Show Details</button>
@@ -230,28 +318,13 @@
           
           <div class="card">
               <div class="card-image">
-                  <img src="./image/Sony_Xperia_1_II.png" alt="sony-xperia-image" width="300">
+                  <img src="./image/Samsung_Galaxy_A71.png" alt="samsung-image" width="300">
               </div>
-              <h3 class="card-title">Sony Xperia 1 II</h3>
+              <h3 class="card-title">Samsung Galaxy A71</h3>
               <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
               <div class="card-price">
                   <span>$</span>
-                  <span id="card-item-price">1199</span>
-              </div>
-              <div class="card-btn">
-                  <button class="btn">Show Details</button>
-              </div>
-          </div>
-          
-          <div class="card">
-              <div class="card-image">
-                  <img src="./image/Xiaomi_Mi_11.png" alt="xiaomi-mi-image" width="300">
-              </div>
-              <h3 class="card-title">Xiaomi Mi 11</h3>
-              <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
-              <div class="card-price">
-                  <span>$</span>
-                  <span id="card-item-price">749</span>
+                  <span id="card-item-price">499</span>
               </div>
               <div class="card-btn">
                   <button class="btn">Show Details</button>
@@ -259,13 +332,13 @@
           </div>
           <div class="card">
             <div class="card-image">
-                <img src="./image/Samsung_Galaxy_S21.png" alt="samsung-image" width="300">
+                <img src="./image/Google_Pixel_5.png" alt="google-pixel-image" width="300">
             </div>
-            <h3 class="card-title">Samsung Galaxy S21</h3>
+            <h3 class="card-title">Google Pixel 5</h3>
             <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
             <div class="card-price">
                 <span>$</span>
-                <span id="card-item-price">999</span>
+                <span id="card-item-price">699</span>
             </div>
             <div class="card-btn">
                 <button class="btn">Show Details</button>
@@ -274,13 +347,13 @@
         
         <div class="card">
             <div class="card-image">
-                <img src="./image/Samsung_Galaxy_Note_20.png" alt="samsung-image" width="300">
+                <img src="./image/Google_Pixel_4a.png" alt="google-pixel-image" width="300">
             </div>
-            <h3 class="card-title">Samsung Galaxy Note 20</h3>
+            <h3 class="card-title">Google Pixel 4a</h3>
             <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
             <div class="card-price">
                 <span>$</span>
-                <span id="card-item-price">1199</span>
+                <span id="card-item-price">349</span>
             </div>
             <div class="card-btn">
                 <button class="btn">Show Details</button>
@@ -289,9 +362,24 @@
         
         <div class="card">
             <div class="card-image">
-                <img src="./image/Samsung_Galaxy_S20.png" alt="samsung-image" width="300">
+                <img src="./image/Google_Pixel_4.png" alt="google-pixel-image" width="300">
             </div>
-            <h3 class="card-title">Samsung Galaxy S20</h3>
+            <h3 class="card-title">Google Pixel 4</h3>
+            <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
+            <div class="card-price">
+                <span>$</span>
+                <span id="card-item-price">799</span>
+            </div>
+            <div class="card-btn">
+                <button class="btn">Show Details</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-image">
+                <img src="./image/Google_Pixel_4_XL.png" alt="google-pixel-image" width="300">
+            </div>
+            <h3 class="card-title">Google Pixel 4 XL</h3>
             <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
             <div class="card-price">
                 <span>$</span>
@@ -304,9 +392,9 @@
         
         <div class="card">
             <div class="card-image">
-                <img src="./image/Samsung_Galaxy_A51.png" alt="samsung-image" width="300">
+                <img src="./image/Google_Pixel_3a.png" alt="google-pixel-image" width="300">
             </div>
-            <h3 class="card-title">Samsung Galaxy A51</h3>
+            <h3 class="card-title">Google Pixel 3a</h3>
             <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
             <div class="card-price">
                 <span>$</span>
@@ -316,30 +404,15 @@
                 <button class="btn">Show Details</button>
             </div>
         </div>
-        
-        <div class="card">
-            <div class="card-image">
-                <img src="./image/Samsung_Galaxy_A71.png" alt="samsung-image" width="300">
-            </div>
-            <h3 class="card-title">Samsung Galaxy A71</h3>
-            <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
-            <div class="card-price">
-                <span>$</span>
-                <span id="card-item-price">499</span>
-            </div>
-            <div class="card-btn">
-                <button class="btn">Show Details</button>
-            </div>
-        </div>
         <div class="card">
           <div class="card-image">
-              <img src="./image/Google_Pixel_5.png" alt="google-pixel-image" width="300">
+              <img src="./image/OnePlus_9_Pro.png" alt="oneplus-image" width="300">
           </div>
-          <h3 class="card-title">Google Pixel 5</h3>
+          <h3 class="card-title">OnePlus 9 Pro</h3>
           <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
           <div class="card-price">
               <span>$</span>
-              <span id="card-item-price">699</span>
+              <span id="card-item-price">969</span>
           </div>
           <div class="card-btn">
               <button class="btn">Show Details</button>
@@ -348,13 +421,13 @@
       
       <div class="card">
           <div class="card-image">
-              <img src="./image/Google_Pixel_4a.png" alt="google-pixel-image" width="300">
+              <img src="./image/OnePlus_8T.png" alt="oneplus-image" width="300">
           </div>
-          <h3 class="card-title">Google Pixel 4a</h3>
+          <h3 class="card-title">OnePlus 8T</h3>
           <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
           <div class="card-price">
               <span>$</span>
-              <span id="card-item-price">349</span>
+              <span id="card-item-price">749</span>
           </div>
           <div class="card-btn">
               <button class="btn">Show Details</button>
@@ -363,24 +436,9 @@
       
       <div class="card">
           <div class="card-image">
-              <img src="./image/Google_Pixel_4.png" alt="google-pixel-image" width="300">
+              <img src="./image/OnePlus_8_Pro.png" alt="oneplus-image" width="300">
           </div>
-          <h3 class="card-title">Google Pixel 4</h3>
-          <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
-          <div class="card-price">
-              <span>$</span>
-              <span id="card-item-price">799</span>
-          </div>
-          <div class="card-btn">
-              <button class="btn">Show Details</button>
-          </div>
-      </div>
-      
-      <div class="card">
-          <div class="card-image">
-              <img src="./image/Google_Pixel_4_XL.png" alt="google-pixel-image" width="300">
-          </div>
-          <h3 class="card-title">Google Pixel 4 XL</h3>
+          <h3 class="card-title">OnePlus 8 Pro</h3>
           <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
           <div class="card-price">
               <span>$</span>
@@ -393,79 +451,68 @@
       
       <div class="card">
           <div class="card-image">
-              <img src="./image/Google_Pixel_3a.png" alt="google-pixel-image" width="300">
+              <img src="./image/OnePlus_7T.png" alt="oneplus-image" width="300">
           </div>
-          <h3 class="card-title">Google Pixel 3a</h3>
+          <h3 class="card-title">OnePlus 7T</h3>
           <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
           <div class="card-price">
               <span>$</span>
-              <span id="card-item-price">399</span>
+              <span id="card-item-price">599</span>
+              <div class="card-btn">
+                <button class="btn">Show Details</button>
+            </div>
           </div>
-          <div class="card-btn">
-              <button class="btn">Show Details</button>
-          </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-            <img src="./image/OnePlus_9_Pro.png" alt="oneplus-image" width="300">
-        </div>
-        <h3 class="card-title">OnePlus 9 Pro</h3>
-        <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
-        <div class="card-price">
-            <span>$</span>
-            <span id="card-item-price">969</span>
-        </div>
-        <div class="card-btn">
-            <button class="btn">Show Details</button>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-image">
-            <img src="./image/OnePlus_8T.png" alt="oneplus-image" width="300">
-        </div>
-        <h3 class="card-title">OnePlus 8T</h3>
-        <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
-        <div class="card-price">
-            <span>$</span>
-            <span id="card-item-price">749</span>
-        </div>
-        <div class="card-btn">
-            <button class="btn">Show Details</button>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-image">
-            <img src="./image/OnePlus_8_Pro.png" alt="oneplus-image" width="300">
-        </div>
-        <h3 class="card-title">OnePlus 8 Pro</h3>
-        <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
-        <div class="card-price">
-            <span>$</span>
-            <span id="card-item-price">899</span>
-        </div>
-        <div class="card-btn">
-            <button class="btn">Show Details</button>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-image">
-            <img src="./image/OnePlus_7T.png" alt="oneplus-image" width="300">
-        </div>
-        <h3 class="card-title">OnePlus 7T</h3>
-        <p class="card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum deserunt repellendus</p>
-        <div class="card-price">
-            <span>$</span>
-            <span id="card-item-price">599</span>
-            <div class="card-btn">
-              <button class="btn">Show Details</button>
-          </div>
-          </div>
+          
+      
+            
 
             </section>
            
     </main>
+    <script src="./store.js"></script>
 </body>
-</html>
+<!-- footer sction -->
+<footer>
+  <div class="footer-container">
+      <div class="footer-header">
+          <h2>My API Store</h2>
+          <p>Learn How to use API Store</p>
+      </div>
+      <div class="footer-links">
+          <div class="footer-column">
+              <p>Products</p>
+              <p>Browse Jobs</p>
+              <p>Remote Jobs</p>
+              <p>Company Jobs</p>
+              <p>Startup Jobs</p>
+          </div>
+          <div class="footer-column">
+              <p>Products</p>
+              <p>Browse Jobs</p>
+              <p>Remote Jobs</p>
+              <p>Company Jobs</p>
+              <p>Startup Jobs</p>
+          </div>
+          <div class="footer-column">
+              <p>Products</p>
+              <p>Browse Jobs</p>
+              <p>Remote Jobs</p>
+              <p>Company Jobs</p>
+              <p>Startup Jobs</p>
+          </div>
+          <div class="footer-column">
+              <p>Products</p>
+              <p>Browse Jobs</p>
+              <p>Remote Jobs</p>
+              <p>Company Jobs</p>
+              <p>Startup Jobs</p>
+          </div>
+      </div>
+      <div class="footer-social">
+          <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+          <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/000000/x.png"/></a>
+          <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+          <a href="#" class="btngit ">Join Premium</a>
+      </div>
+  </div>
+</footer>
